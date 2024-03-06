@@ -13,7 +13,6 @@ def rot13(texts):
             char_index = alphabet.index(char)
             if is_upper:
                 new_index = (char_index + 13) % 26
-                print(new_index)
             else:
                 new_index = (char_index + 13) % 26 + 26
             result += alphabet[new_index] 
